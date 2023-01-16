@@ -1,9 +1,9 @@
 @font-face {
 	font-family: "ITC Avant Garde Gothic Pro";
-	src: url("assets/fonts/itc-avant-garde-pro/ITCAvantGardePro-Bold.otf") format("opentype");
+	src: url("./assets/fonts/itc-avant-garde-pro/ITCAvantGardePro-Bold.otf") format("opentype");
 }
 
 @font-face {
 	font-family: "Avenir";
-	src: url("assets/fonts/avenir/Avenir.ttc") format("truetype");
+	src: url("./assets/fonts/avenir/Avenir.ttc") format("truetype");
 }
