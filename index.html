@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Section | Demo</title>
+	<meta name="Author" content="Serkan Alabas">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" href="assets/css/fonts.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+	<div class="main">
+		<div class="cover">
+			<img src="/assets/images/digifist.png" style="width: 164px;" />
+		</div>
+		<div class="section">
+			<div class="left-side">		
+				<picture>
+					<source media="@media screen and (max-width: 768px)" srcset="/assets/images/lifestyle/left-bg-mobile.jpg">		
+					<img class="left-side__bg-img" src="/assets/images/lifestyle/left-bg.jpg">
+				</picture>
+			</div>
+			<div class="right-side">
+				<div class="right-side__text-group">
+					<div class="right-side__text-1">
+						<p>
+							Everyday items, we have something to suit every occasion.
+						</p>
+					</div>
+					<div class="right-side__text-2">
+						<p>
+							At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus.	
+						</p>
+					</div>
+					<div class="right-side__txt-btn-shop-all">
+						<p>
+							Shop all everyday items
+						</p>
+						<div class="right-side__txt-btn-line"></div>
+					</div>
+				</div>
+
+				<div class="products">
+					<!-- Product Slider main container -->
+					<div class="swiper products-swiper">
+						<!-- Additional required wrapper for slider -->
+						<div class="swiper-wrapper">
+							<!-- Product Slides -->
+							<div class="products__product-card swiper-slide">
+								<img src="/assets//images/lifestyle/product-1.png" />
+								<div class="product-card__details">
+									<div class="product-card__title-frame">
+										<p class="product-card__title">
+											Organic Skinny High Waist Jeans								
+										</p>
+									</div>
+									<div class="product-card__price-and-swatches">
+										<div class="product-card__price">
+											<span>
+												€33.95
+											</span>
+										</div>
+										<div class="product-card__swatches">
+											<div class="swatches__swatch swatches__swatch--swatch-1 swatches__swatch--active-swatch"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-2"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-3"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-4"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="products__product-card swiper-slide">
+								<img src="/assets//images/lifestyle/product-2.png" />
+								<div class="product-card__details">
+									<div class="product-card__title-frame">
+										<p class="product-card__title">
+											Organic Skinny High Waist Jeans								
+										</p>
+									</div>
+									<div class="product-card__price-and-swatches">
+										<div class="product-card__price">
+											<span>
+												€33.95
+											</span>
+										</div>
+										<div class="product-card__swatches">
+											<div class="swatches__swatch swatches__swatch--swatch-1 swatches__swatch--active-swatch"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-2"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-3"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-4"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="products__product-card swiper-slide">
+								<img src="/assets//images/lifestyle/product-3.png" />
+								<div class="product-card__details">
+									<div class="product-card__title-frame">
+										<p class="product-card__title">
+											Organic Skinny High Waist Jeans								
+										</p>
+									</div>
+									<div class="product-card__price-and-swatches">
+										<div class="product-card__price">
+											<span>
+												€33.95
+											</span>
+										</div>
+										<div class="product-card__swatches">
+											<div class="swatches__swatch swatches__swatch--swatch-1 swatches__swatch--active-swatch"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-2"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-3"></div>
+											<div class="swatches__swatch swatches__swatch--swatch-4"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__btn-next-product">
+						<img src="/assets/icons/chevron-right.svg" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+	<script>
+		const swiper = new Swiper('.products-swiper', {
+			direction: 'horizontal',
+			slidesPerView: "auto",
+			mousewheel: {
+				releaseOnEdges: true,
+			}, 
+			scrollbar: {
+				el: '.swiper-scrollbar',
+				draggable: true,
+			},
+		});
+	</script>
+
+</body>
+</html>
